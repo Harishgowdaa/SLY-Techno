@@ -92,7 +92,7 @@ const Facility = () => {
                 all manufacturing processes. Our facility operates with strict adherence to 
                 industrial safety standards and environmental regulations.
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              {/* <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-slate-100 rounded-lg">
                   <div className="text-2xl font-bold text-yellow-600">15,000</div>
                   <div className="text-slate-600">Sq. Ft. Facility</div>
@@ -101,7 +101,7 @@ const Facility = () => {
                   <div className="text-2xl font-bold text-yellow-600">20+</div>
                   <div className="text-slate-600">CNC Machines</div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
