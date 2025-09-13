@@ -220,7 +220,7 @@ const Clients = () => {
       </section> */}
 
             {/* CTA Section */}
-            <section className='py-20 bg-white'>
+            {/* <section className='py-20 bg-white'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
                     <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <h2 className='text-4xl font-bold text-slate-800 mb-6'>Ready to Join Our Success Stories?</h2>
@@ -230,7 +230,7 @@ const Clients = () => {
                         </button>
                     </motion.div>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };
