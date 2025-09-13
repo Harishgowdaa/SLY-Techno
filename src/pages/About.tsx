@@ -44,8 +44,7 @@ const About = () => {
                                             <br />
                                             No. 07, Karivabanahalli, Thigalrapalya Main Road,
                                             <br />
-                                            Peenya 2nd Stage
-                                            <br />
+                                            Peenya 2nd Stage,
                                             Bangalore - 560058
                                             <br />
                                             Karnataka, India
