@@ -31,7 +31,7 @@ const Contact = () => {
         {
             icon: <MapPin className='h-6 w-6' />,
             title: 'Address',
-            details: ['SLY Techno Solutions', 'No. 07, Karivabanahalli, Thigalrapalya Main Road,', 'Peenya 2nd Stage', 'Bangalore - 560058', 'Karnataka, India'],
+            details: ['SLY Techno Solutions', 'No. 07, Karivabanahalli, Thigalrapalya Main Road,', 'Peenya 2nd Stage, Bangalore - 560058', 'Karnataka, India'],
         },
         {
             icon: <Phone className='h-6 w-6' />,
@@ -86,7 +86,7 @@ const Contact = () => {
                             </div>
 
                             {/* Map Placeholder */}
-                            <motion.div
+                            {/* <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8, delay: 0.4 }}
@@ -95,7 +95,7 @@ const Contact = () => {
                                 <h3 className='text-lg font-semibold text-slate-800 mb-2'>Visit Our Facility</h3>
                                 <p className='text-slate-600'>Schedule a visit to see our state-of-the-art manufacturing facility</p>
                                 <button className='mt-4 bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded-lg transition-colors duration-300'>Book a Tour</button>
-                            </motion.div>
+                            </motion.div> */}
                         </motion.div>
 
                         {/* Contact Form */}
