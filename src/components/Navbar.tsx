@@ -62,7 +62,7 @@ const Navbar = () => {
                                     to={item.href}
                                     onClick={() => {
                                         setIsOpen(false);
-                                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                                        setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 100);
                                     }}
                                     className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                                         location.pathname === item.href ? 'bg-yellow-500 text-slate-900' : 'text-slate-200 hover:text-white hover:bg-slate-700'
