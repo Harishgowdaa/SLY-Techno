@@ -72,6 +72,7 @@ const About = () => {
                                     <Mail className='h-6 w-6 text-yellow-500' />
                                     <div>
                                         <h4 className='font-semibold text-slate-800'>Email</h4>
+                                        <p className='text-slate-600 font-bold'>sales@slytechnosolutions.com</p>
                                         <p className='text-slate-600'>shivanna@slytechnosolutions.com</p>
                                     </div>
                                 </div>

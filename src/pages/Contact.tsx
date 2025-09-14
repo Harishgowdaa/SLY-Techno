@@ -41,7 +41,7 @@ const Contact = () => {
         {
             icon: <Mail className='h-6 w-6' />,
             title: 'Email',
-            details: ['shivanna@slytechnosolutions.com'],
+            details: ['sales@slytechnosolutions.com', 'shivanna@slytechnosolutions.com'],
         },
         {
             icon: <Clock className='h-6 w-6' />,
@@ -76,7 +76,7 @@ const Contact = () => {
                                         <div>
                                             <h3 className='text-lg font-semibold text-slate-800 mb-2'>{info.title}</h3>
                                             {info.details.map((detail, detailIndex) => (
-                                                <p key={detailIndex} className='text-slate-600'>
+                                                <p key={detailIndex} className={`text-slate-600 ${info.title === 'Email' && detail === 'sales@slytechnosolutions.com' ? 'font-bold' : ''}`}>
                                                     {detail}
                                                 </p>
                                             ))}

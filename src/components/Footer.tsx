@@ -65,6 +65,10 @@ const Footer = () => {
                                 <Phone className='h-5 w-5 text-yellow-500' />
                                 <span className='text-slate-300'>+91 9902880945</span>
                             </div>
+                            <div className='flex items-center space-x-3 min-w-0'>
+                                <Mail className='h-5 w-5 text-yellow-500 flex-shrink-0' />
+                                <span className='text-slate-300 font-bold'>sales@slytechnosolutions.com</span>
+                            </div>
                             <div className='flex items-center space-x-3'>
                                 <Mail className='h-5 w-5 text-yellow-500' />
                                 <span className='text-slate-300'>shivanna@slytechnosolutions.com</span>
