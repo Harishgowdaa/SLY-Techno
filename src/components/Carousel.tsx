@@ -35,6 +35,7 @@ const Carousel: React.FC = () => {
                     src={img}
                     alt={`carousel-${idx}`}
                     className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${current === idx ? 'opacity-100' : 'opacity-0'}`}
+                    style={{ objectFit: 'cover', objectPosition: 'center' }}
                 />
             ))}
             <button className='absolute left-6 top-1/2 -translate-y-1/2 bg-slate-900/40 text-white rounded-full p-2 hover:bg-yellow-500 hover:text-slate-900 transition z-10' onClick={goToPrev}>
