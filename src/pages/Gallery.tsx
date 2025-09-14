@@ -4,9 +4,9 @@ import { X, ZoomIn } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 
 // Import the uploaded images
-import image1 from '../assets/WhatsApp Image 2025-09-13 at 9.51.35 PM.jpeg';
-import image2 from '../assets/WhatsApp Image 2025-09-13 at 9.51.44 PM.jpeg';
-import image3 from '../assets/WhatsApp Image 2025-09-13 at 9.51.53 PM.jpeg';
+import image1 from '../assets/img1.jpeg';
+import image2 from '../assets/img2.jpeg';
+import image3 from '../assets/img3.jpeg';
 import cnc from '../assets/cnc.png';
 import vmc from '../assets/vmc.png';
 import smartImg from '../assets/smart.webp';
